@@ -61,7 +61,7 @@ params:
     enableSeparator: false
     menus:
       disableAbout: false
-      disableExperience: true
+      disableExperience: false
       disableEducation: true
       disableProjects: false
       disableAchievements: true
@@ -79,8 +79,6 @@ params:
       Amateur ice cream scientist.
       <br></br>
       Based in Austin, TX.
-      <br></br>
-      More content coming soon!
     bottomImage:
       enable: false
     button:
@@ -95,6 +93,65 @@ params:
           url: https://github.com/dpopp07/
         - icon: fab fa-spotify
           url: https://open.spotify.com/artist/7IMJRL5vHrhhuAqtFc0bAP?si=tHbBkaQ0QseiLiYqmF6-kg
+
+  # About
+  about:
+    enable: true
+    title: "About"
+    # image: "/images/me.png"
+    content: |-
+      I am a software engineer at IBM Cloud working in the API space, with a particular focus on developer experience, design, and client library integrations.
+
+      Outisde of software, I'm a musician and recording enginner. You can check out some of the music I've worked on by clicking the Spotify logo above.
+      I'm also something of a serial hobbyist. I enjoy making (and eating) ice cream, studying theology and philosophy, reading, and developing craft cocktail recipes.
+      The unifying factor among my work and diverse interests is the intersection of art and science. I love exercising both sides of my brain in all that I do.
+
+      Most of all, though I'm introvert, I love working with and being around people. Thanks for visiting my site, and feel free to say hey!
+
+  # projects
+  projects:
+    enable: true
+    items:
+      - title: Scoops
+        content: A web app for ice cream recipes and analysis.
+        image: scoops-screenshot.png
+        featured:
+          name: Site
+          link: https://scoops.dustinpopp.com/
+        badges:
+          - "TypeScript"
+          - "React"
+          - "Express"
+          - "PostgreSQL"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/dpopp07/scoops-api
+          - icon: fab fa-github
+            url: https://github.com/dpopp07/scoops-ui
+
+  experience:
+    enable: false
+    # title: "Custom Name"
+    items:
+      - job: "Software Engineering Lead"
+        company: "IBM"
+        companyUrl: "https://www.ibm.com/cloud"
+        date: "2017 - present"
+        content: "Technical Team Lead for the API/SDK team at IBM Cloud. Building tools to generate client libraries from APIs and writing API design standards."
+         # - "TypeScript"
+         # - "SDKs, CLIs, and Terraform for APIs"
+         # - "Golang"
+         # - "API Design & Development"
+         # - "Java"
+         # - "Software Architecture"
+
+  #Contact
+  contact:
+    enable: true
+    # title: "Custom Name"
+    content: Say hello!
+    btnName: Email
+    btnLink: mailto:dpopp07@gmail.com
 
   footer:
     socialNetworks:
