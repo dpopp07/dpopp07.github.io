@@ -100,11 +100,15 @@ params:
     title: "About"
     # image: "/images/me.png"
     content: |-
-      I am a software engineer at IBM Cloud working in the API space, with a particular focus on developer experience, design, and client library integrations.
+      I am a software engineer and team lead at IBM Cloud working in the API space, with a particular focus on developer experience,
+      interface design, and client library integrations. I've had the opportunity to lead several impactful, cross-functional projects
+      such as an application that generates CLI and Terraform integrations from API specifications, automation that provides API design
+      feedback for Cloud services, and a system that unifies error handling experiences across IBM Cloud services and tools.
 
-      Outisde of software, I'm a musician and recording enginner. You can check out some of the music I've worked on by clicking the Spotify logo above.
-      I'm also something of a serial hobbyist. I enjoy making (and eating) ice cream, studying theology and philosophy, reading, and developing craft cocktail recipes.
-      The unifying factor among my work and diverse interests is the intersection of art and science. I love exercising both sides of my brain in all that I do.
+      Outisde of software, I'm a musician and recording enginner. You can check out some of the music I've worked on by clicking the
+      Spotify logo above. I'm also something of a serial hobbyist. I enjoy making (and eating) ice cream, studying theology and
+      philosophy, and developing craft cocktail recipes. The unifying factor among my work and diverse interests is the
+      intersection of art and science. I love exercising both sides of my brain in all that I do.
 
       Most of all, though I'm introvert, I love working with and being around people. Thanks for visiting my site, and feel free to say hey!
 
